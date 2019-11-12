@@ -1,5 +1,5 @@
 # Quick Start:
-You can use dockeer image as follows:
+You can use docker image as follows:
 ```bash
 docker run --rm -itv "$(pwd):/data/Books" cayro/safari-books-downloader -b <bookId> -u <safari-books-username> -p <safari-books-password> -o <output-name>
 ```
