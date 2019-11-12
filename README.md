@@ -1,3 +1,9 @@
+# Quick Start:
+You can use dockeer image as follows:
+```bash
+docker run --rm -itv "$(pwd):/data/Books" cayro/safari-books-downloader -b <bookId> -u <safari-books-username> -p <safari-books-password> -o <output-name>
+```
+Output path is optional, if not specified it appear as `book.epub` in your working directory, if you want to specify a name it should start with `/data/Books/`
 # SafariBooks Downloader & ePub Generator
 SafariBooks-Downloader is a project created and maintained by [Nico Haenggi](http://www.nicohaenggi.com/).
 
